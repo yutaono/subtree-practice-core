@@ -7,6 +7,5 @@ lazy val core = (project in file("core"))
   .dependsOn(util)
   .settings(commonSettings: _*)
 
-//lazy val util = (project in file("subtree-practice-shared/util"))
-//  .settings(commonSettings: _*)
-//
+lazy val util = (project in file("shared/util"))
+  .settings(commonSettings: _*)
