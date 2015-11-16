@@ -1,6 +1,7 @@
 package practice
 
 import practice.util._
+import practice.util.Utility._
 
 object Main extends App {
 
@@ -8,5 +9,7 @@ object Main extends App {
   val result = Utility.triple(x)
 
   println(result)
+  println(x.isPerfectNumber)
+  println(28.isPerfectNumber)
 
 }
